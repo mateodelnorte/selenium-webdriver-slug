@@ -36,8 +36,6 @@ test.suite(function (env) {
       driver.findElement(By.id('submit')).click();
       driver.findElement(By.className('alert')).getText().then(function (text) {
         text.should.include('Sorry, that username and password combination doesn\'t match');
-      }).then(null, function (err) {
-        throw err;
       });
     });
 
@@ -48,8 +46,6 @@ test.suite(function (env) {
       driver.findElement(By.id('submit')).click();
       driver.findElement(By.className('freeeeeedom')).getText().then(function (text) {
         text.should.include('matt, you bought yourself FREEEEEDOOOOOM!');
-      }).then(null, function (err) {
-        throw err;
       });
     });
 
