@@ -1,0 +1,15 @@
+body {
+  padding: 50px;
+  font: 22px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+a {
+  color: #00B7FF;
+}
+
+img.freedom {
+  background:url("/images/reddit.jpg");
+  height: 300px;
+  width: 400px;
+}

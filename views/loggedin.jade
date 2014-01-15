@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1.huzzaah You did it!
+  h2.freeeeeedom #{ username }, you bought yourself FREEEEEDOOOOOM!
+    sup
+      sub
+        sup
+          sub (from worrying about things breaking all the time)
+  img.freedom
+  script.
+    var img = document.getElementsByClassName('freedom')[0];
+    img.addEventListener('click', function (e) { 
+      document.getElementsByClassName('huzzaah')[0].textContent = "You so sneaky!"; 
+    });

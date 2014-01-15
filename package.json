@@ -1,0 +1,19 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "debug": "0.7.2",
+    "express": "3.4.0",
+    "jade": "0.34.1"
+  },
+  "devDependencies": {
+    "selenium-webdriver": "2.38.0",
+    "should": "2.1.1",
+    "mocha": "1.15.1",
+    "sinon": "1.7.3"
+  }
+}
